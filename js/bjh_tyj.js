@@ -219,6 +219,19 @@ var ding_sub = [].concat(kxdxmIds);
 ding_sub = ding_sub.concat(hash11Ids);
 
 
+/*爨乡文化（丁）*/
+var ding_li_1 = [].concat(xxwhIds);
+/*陈姐说体育（丁）*/
+ding_li_1 = ding_li_1.concat(cjstyIds);
+/*姚哥说职场（丁）*/
+var ding_li_2 = [].concat(ygszcIds);
+/*薛明磊谈影视(李)*/ 
+ding_li_2 = ding_li_2.concat(xmltysIds);
+/*文姐说育儿e(李)*/
+var ding_li_3 = [].concat(wjsyeIds);
+/*谢姐说体育(李)*/
+ding_li_3 = ding_li_3.concat(xjstxIds);
+
 /*简单家常事(李)*/
 var li_sub = [].concat(jdjcsIds);
 /*徐川说体育(李)*/

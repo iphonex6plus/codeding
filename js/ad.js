@@ -39,8 +39,12 @@
 		accountList.push(list_13());
 		accountList.push(list_14());
 		accountList.push(list_15());
+		accountList.push(list_17());
+		accountList.push(list_18());
+		accountList.push(list_19());
 		// accountList.push(dyh_xwzIds);
 		if(isIOS){
+			accountList.push(list_12());
 			add_gzs_bjh();
 			creatIframeList();
 			//需要多次刷新的数据
@@ -174,7 +178,7 @@
 	function list_12(){
 		var list =[];
 		/*三树娱乐*/
-		list= list.concat(bjh_sanshuyuleIds);
+		list= list.concat(bjh_fanucIds);
 		return list;
 	}
 	function list_13(){
@@ -201,6 +205,30 @@
 		list= list.concat(qchyIds);
 		return list;
 	}
+	function list_16(){
+		var list =[];
+		/*启诚韩语*/
+		list= list.concat(qchyIds);
+		return list;
+	}
+	function list_17(){
+		var list =[];
+		/**/
+		list= list.concat(ding_li_1);
+		return list;
+	}
+	function list_18(){
+		var list =[];
+		/**/
+		list= list.concat(ding_li_2);
+		return list;
+	}
+	function list_19(){
+		var list =[];
+		/**/
+		list= list.concat(ding_li_3);
+		return list;
+	}
 	
 	/*加载iframe*/
 	/*组装iframe数组*/
@@ -211,6 +239,9 @@
 		accountList.push(list_13());
 		accountList.push(list_14());
 		accountList.push(list_15());
+		accountList.push(list_17());
+		accountList.push(list_18());
+		accountList.push(list_19());
 		/*小小依*//*小赖体育*//*小太阳TYJ*//*迷途小猿 syg*/ 
 		accountList.push(list_3());
 		/*小赖体育*/
