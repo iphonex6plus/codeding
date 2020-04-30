@@ -257,12 +257,12 @@ ding_sub = ding_sub.concat(hash11Ids);
 var ding_li_1 = [].concat(xxwhIds);
 /*陈姐说体育（丁）*/
 ding_li_1 = ding_li_1.concat(cjstyIds);
-/*姚哥说职场（丁）*/
+/*姚哥说职场（丁）*/xcstyIds
 var ding_li_2 = [].concat(ygszcIds);
-/*简单家常事(李)*/
-ding_li_2 = ding_li_2.concat(jdjcsIds);
 /*徐川说体育(李)*/
-var ding_li_3 = [].concat(xcstyIds);
+ding_li_2 = ding_li_2.concat(xcstyIds);
+//*简单家常事(李)*/
+var ding_li_3 = [].concat(jdjcsIds);
 /*谢姐说体育(李)*/
 ding_li_3 = ding_li_3.concat(xjstxIds);
 
