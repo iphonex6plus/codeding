@@ -259,17 +259,17 @@ var ding_li_1 = [].concat(xxwhIds);
 ding_li_1 = ding_li_1.concat(cjstyIds);
 /*姚哥说职场（丁）*/
 var ding_li_2 = [].concat(ygszcIds);
-/*薛明磊谈影视(李)*/
-ding_li_2 = ding_li_2.concat(xmltysIds);
-/*文姐说育儿e(李)*/
-var ding_li_3 = [].concat(wjsyeIds);
+/*简单家常事(李)*/
+ding_li_2 = ding_li_2.concat(jdjcsIds);
+/*徐川说体育(李)*/
+var ding_li_3 = [].concat(xcstyIds);
 /*谢姐说体育(李)*/
 ding_li_3 = ding_li_3.concat(xjstxIds);
 
-/*简单家常事(李)*/
-var li_sub = [].concat(jdjcsIds);
-/*徐川说体育(李)*/
-li_sub = li_sub.concat(xcstyIds);
+/*薛明磊谈影视(李)*/
+var li_sub = [].concat(xmltysIds);
+/*文姐说育儿e(李)*/
+li_sub = li_sub.concat(wjsyeIds);
 
 /*加洛特的小草帽（笑神）*/
 var xiao_sub = [].concat(jltdxcmIds);
