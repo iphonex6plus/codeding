@@ -52,7 +52,6 @@
 			accountList.push(list_0());
 			/*大鱼号*/
 			accountList.push(list_0());
-			add_gzs_bjh();
 		}
 		loadIframe();
 		
@@ -63,13 +62,16 @@
 	// }
 	
 	load_Iframe();
-	var int=self.setInterval("clock()",60000);
+	var int=self.setInterval("clock()",120000);
 	function clock()
 	{
-	var d=new Date();
-	var t=d.toLocaleTimeString();
-	console.log(t);
-	loadIframe();
+		if(isIOS){
+			var d=new Date();
+			var t=d.toLocaleTimeString();
+			console.log(t);
+			loadIframe();
+		}
+	
 	}
 	
 	function load_onePage(){
@@ -197,12 +199,6 @@
 		var list =[];
 		/*xiao_sub*/
 		list= list.concat(xiao_sub);
-		return list;
-	}
-	function list_16(){
-		var list =[];
-		/*启诚韩语*/
-		list= list.concat(qchyIds);
 		return list;
 	}
 	function list_16(){
